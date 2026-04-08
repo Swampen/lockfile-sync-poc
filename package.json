@@ -1,0 +1,15 @@
+{
+  "name": "lockfile-sync-poc",
+  "private": true,
+  "packageManager": "npm@11.5.2",
+  "engines": {
+    "node": ">=18"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "install:lockfile": "npm install --package-lock-only --ignore-scripts"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@demo/cms",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@demo/shared": "*",
+    "@sanity/assist": "5.0.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sanity": "^4.8.1"
+  }
+}
