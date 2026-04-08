@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('build @demo/eslint-config')\"",
+    "lint": "node -e \"console.log('lint @demo/eslint-config')\"",
+    "typecheck": "node -e \"console.log('typecheck @demo/eslint-config')\""
+  },
   "exports": {
     "./base": "./base.js",
     "./next-js": "./next.js",

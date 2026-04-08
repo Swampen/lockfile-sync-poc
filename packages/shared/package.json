@@ -1,5 +1,10 @@
 {
   "name": "@demo/shared",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('build @demo/shared')\"",
+    "lint": "node -e \"console.log('lint @demo/shared')\"",
+    "typecheck": "node -e \"console.log('typecheck @demo/shared')\""
+  }
 }

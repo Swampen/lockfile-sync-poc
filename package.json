@@ -10,6 +10,12 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
     "install:lockfile": "npm install --package-lock-only --ignore-scripts"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.17"
   }
 }

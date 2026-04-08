@@ -2,6 +2,11 @@
   "name": "@demo/cms",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('build @demo/cms')\"",
+    "lint": "node -e \"console.log('lint @demo/cms')\"",
+    "typecheck": "node -e \"console.log('typecheck @demo/cms')\""
+  },
   "dependencies": {
     "@demo/eslint-config": "*",
     "@demo/shared": "*",

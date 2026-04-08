@@ -6,7 +6,8 @@ Minimal npm workspaces monorepo intended to reproduce a Dependabot security upda
 
 - `apps/cms` is a workspace app with public Sanity packages.
 - `packages/shared` is a local workspace package.
-- The repository uses a single root `package-lock.json`.
+- `packages/eslint-config` is a small internal config package.
+- The repository uses Turborepo with a single root `package-lock.json`.
 
 ## Why this repo exists
 
@@ -27,6 +28,7 @@ This repo removes:
 while keeping the same core setup:
 
 - npm workspaces
+- Turborepo
 - root lockfile
 - public packages that depend on `lodash`
 
@@ -41,4 +43,7 @@ while keeping the same core setup:
 
 ```bash
 npm install --package-lock-only --ignore-scripts
+npm run build
+npm run lint
+npm run typecheck
 ```
