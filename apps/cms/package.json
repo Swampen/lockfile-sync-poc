@@ -7,6 +7,6 @@
     "@sanity/assist": "5.0.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "sanity": "^4.8.1"
+    "sanity": "^5.20.0"
   }
 }
